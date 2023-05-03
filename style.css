@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*colunas*/
+body{
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+  }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.mainempresa{
+    position: relative;
+    top: -400px;
+}
+/*Barra de navegação*/
+header li {
+    position: relative;
+    display: inline;
+    float: right;
+    margin-right: 80px ;
+    margin-top: 15px;
+    top: 0px;
+}
+header a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+.span-loja li{
+    background-color:#B2B74A ;
+    width: 130px;
+    text-align: center;
+    height: 50px;
+    position: relative;
+    top: -15px;
+    padding-top: 15px;
+}   
+.span-servicos li {
+    color: #B2B74A    ;
+}
+.linha-contatos {
+    background-color: #5D5650;
+    padding: 5px;
+    height: 30px;
+}
+.logo-redes{
+    position: relative;
+    left: 1000px;
+    top: -17px;
+    float: right;
+    width: 70px;
+}
+.logo-redes div{
+    margin-left: 20%;
+}
+.contatos a {
+    margin-left: 3%;
+    color: white;
+    font-size: 12px ;
+    position: relative;
+}
+.logo-email-tel img{
+   padding-right: 1%;
+}
+/*CSS NAVBAR*/
+
+
+
+
+
+.banner-transporte {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.banner-transporte ul {
+    position: absolute;
+    top: 120px;
+    list-style: none;
+    left: 40px ;
+
+}
+.banner-transporte a {
+    font-family: 'BenchNine', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 84px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.conteudo-principal h1 {
+    font-family: 'BenchNine', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 86px;
+    text-align: center;
+    color: #413C38;
+}
+.conteudo-principal p {
+    float: right;
+    margin-right: 5%;
+    font-family: 'BenchNine', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #5D5650;
+}
+
+/*Empresa Infos*/
+.nossaempresa{
+    text-align: center;
+    position: relative;
+    top: 5em;
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 86px;
+}
+section{
+    display: flex;
+}
+.containerimagem{
+    position: relative;
+    top: 30em;
+    margin-left: 4%;
+}
+.containertexto{
+    position: relative;
+    top: 30em;
+    width: 30%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+.servicos{
+    position: relative;
+    top: 35em;
+    justify-content: center;
+
+}
+.servicos div{
+    margin: 2%;
+}
+.fix{
+    position: relative;
+    bottom: 1em;
+}
+.container2{
+    position: relative;
+    top: 40em;
+}
+.containerimagem2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.containertexto2{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 10%;
+}
+/*Catálogo*/
+.campo{
+    position: absolute;
+}
+h2, h3{
+    z-index: 1;
+}
+.box_catalogo{
+    width: 644px;
+    height: 630px;
+    background-color: rgba(255, 255, 255, 0.705);
+    z-index: 1;
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+}
+.box_catalogo h2{
+    margin-top: 23%;
+}
+.box_catalogo input{
+    margin-top: 7%;
+    width: 496px;
+    height: 47px;
+    border: 1px solid #5D5650;
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+}
+.box_catalogo input::placeholder{
+    color: #B2B74A;
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+}
+#botao{
+    background-color: #413C38;
+    color: white;
+}
+.catalogo{
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: 3em;
+    font-family: 'BenchNine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 86px;
+    color: #413C38;
+}
+.login{
+    color: #413C38;
+}
+.maincatalogo{
+    margin-top: -18%;
+}
+/*Fim catálogo*/
+/*footer empresa*/
+.rodape
+    {
+    position: relative;
+    width: 100%;
+    height: 455px;
+    left: 0px;
+    top: 300px;
+    background: #5D5650;
+    border-radius: 0px;
+    }
+
+.final
+    {
+        position: relative;
+        bottom: 14%;
+        color: #D1D1D1;
+        font-family: 'Roboto';
+        font-style: normal;
+        text-align: center;
+        font-size: 15px;
+        line-height: 30px;
+        height: 25px;
+        width: 100%;
+    }
+
+body
+    {
+        margin: 0;
+    }
+
+.paragrafo
+    {
+        color: #FFFFFF;;
+        margin: 100px;
+        margin-top: 140px;
+        width: 300px;
+        height: 210px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+.carta
+    {
+        height: 10%;
+        position: relative;
+        top: 3%;
+    }
+
+.cartaum
+    {
+        height: 10%;
+        position: relative;
+        top: 5%;
+    }
+
+.cartadois
+    {
+        height: 10%;
+        position: relative;
+        top: 7%;
+    }
+
+.endereco
+    {
+        height: 12%;
+        position: relative;
+        top: 4%;
+    }
+
+.telefone
+    {
+        height: 12%;
+        position: relative;
+        top: 4%;
+    }
+
+.paragrafodireita
+    {
+        margin-top: 50px;
+        margin-left: 450px;
+        width: 231px;
+        height: 242px;
+
+        font-family:'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        
+        color: #FFFFFF;
+    }
+
+.paragrafodireita a 
+    {
+        position: relative;
+        top: 45px;
+        text-decoration: none;
+        font-family:'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        
+        color: #FFFFFF;
+    }
+
+section
+    {
+        display: flex;
+    }
+.imgend{
+    position: absolute;
+    right: 395px;
+    bottom: 345px;
+}
+.imgtel{
+    position: absolute;
+    right: 395px;
+    bottom: 225px;
+}
+.imgemail{
+    position: absolute;
+    right: 395px;
+    bottom: 70px;
+}/*footer catálogo*/
+.imgend2{
+    position: absolute;
+    right: 395px;
+    bottom: 345px;
+}
+.imgtel2{
+    position: absolute;
+    right: 395px;
+    bottom: 220px;
+}
+.imgemail2{
+    position: absolute;
+    right: 395px;
+    bottom: 70px;
+}
