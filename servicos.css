@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+
+/*CSS NAVBAR*/
+
+header li {
+    display: inline;
+    float: right;
+    margin-right: 80px ;
+    margin-top: 20px;
+    
+    
+}
+header a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+
+}
+.span-loja li{
+    background-color:#B2B74A ;
+    width: 130px;
+    text-align: center;
+    height: 30px;
+    position: relative;
+    bottom: 10px;
+    padding-top: 10px;
+}   
+.span-servicos li {
+    color: #B2B74A    ;
+}
+.linha-contatos {
+    background-color: #5D5650;
+    padding: 5px;
+}
+.logo-redes img {
+    float: right;
+    margin-right:3%;
+}
+.contatos a {
+    margin-left: 3%;
+    color: white;
+    font-size: 12px ;
+    position: relative;
+}
+.logo-email-tel img{
+   padding-right: 1%;
+}
+/*CSS NAVBAR*/
+
+
+
+
+
+.banner-transporte {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.banner-transporte ul {
+    position: absolute;
+    top: 70px;
+    list-style: none;
+    left: 40px ;
+
+}
+.banner-transporte a  {
+    font-family: 'BenchNine', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 84px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.conteudo-principal h1 {
+    font-family: 'BenchNine', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 86px;
+    text-align: center;
+    color: #413C38;
+}
+.conteudo-principal p {
+    float: right;
+    margin-right: 5%;
+    font-family: 'BenchNine', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #5D5650;
+
+}
+.imagens-cont-principal  {
+    display: inline-block;
+    background-repeat: round ;
+
+}
+.imagens-cont-principal img {
+    margin-left: 3%;
+}
+.imagens-cont-principal-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+.imagens-cont-principal-2 img {
+    margin-left: 20px;
+}
+
+
+.area-comunicacao-site {
+    background: #5D5650;
+    padding: 20px;
+    padding-top: 100px;
+}
+.alinhamento-flex {
+    display: flex;
+    margin-left: 5%;
+
+
+}
+.titulo {
+    margin-top: 50px;
+    background-color: #ffffff;
+    width: 95%;
+    margin-left: 5%;
+    padding-bottom: 16px;
+    
+}
+.titulo h1 {
+    font-size: 40px;
+    margin-left: 10%;
+    font-family: 'BenchNine', sans-serif;
+}
+.titulo p {
+    margin-left: 10% ;
+    font-family: 'BenchNine', sans-serif;
+}
+.esquerda {
+    background-color: rgb(255, 255, 255);
+    padding:2%;
+    width: 60%;
+    text-align: right;
+
+}
+.direita {
+    background-color: rgb(255, 255, 255);
+    padding-left: 8%;
+    width: 30%;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.direita h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.direita img {
+    padding-right: 5px;
+}
+.espaco {
+    margin-left: 20px;
+}
+.direita a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nome, #email, #assunto, #telefone {
+    background-color: #B2B74A;
+    padding: 5px;
+    border: none;
+    width: 40%;
+    margin-bottom: 20px;
+    margin-left: 8%; 
+}
+#nome::placeholder {
+    color: white;
+    font-family: 'BenchNine', sans-serif;
+}
+#email::placeholder {
+    color: white;
+    font-family: 'BenchNine', sans-serif;
+}
+#telefone::placeholder {
+    color: white;
+    font-family: 'BenchNine', sans-serif;
+}
+#assunto::placeholder {
+    color: white;
+    font-family: 'BenchNine', sans-serif;
+}
+#mensagem {
+    background-color: #B2B74A;
+    padding: 5px;
+    border: none;
+    text-align: left;
+    width: 90%;
+    padding-bottom: 150px;
+    margin-left: 51px;
+}
+#mensagem::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: 'BenchNine', sans-serif;
+}
+.esquerda button {
+    background-color: transparent;
+    border: solid 2px  #B2B74A;
+    padding: 20px 50px 20px 50px;
+    margin-top: 20px;
+    float: right;
+    color: #B2B74A;
+    margin-bottom: 100px;
+}
