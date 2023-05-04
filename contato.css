@@ -83,6 +83,7 @@ header a {
     background: #5D5650;
     padding: 20px;
     padding-top: 100px;
+    margin-top: -10px;
 }
 .alinhamento-flex {
     display: flex;

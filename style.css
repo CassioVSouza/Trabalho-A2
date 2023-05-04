@@ -385,22 +385,22 @@ section
 .imgemail{
     position: absolute;
     right: 395px;
-    bottom: 70px;
+    bottom: 95px;
 }/*footer catálogo*/
 .imgend2{
     position: absolute;
     right: 395px;
-    bottom: 320px;
+    bottom: 345px;
 }
 .imgtel2{
     position: absolute;
     right: 395px;
-    bottom: 240px;
+    bottom: 225px;
 }
 .imgemail2{
     position: absolute;
     right: 395px;
-    bottom: 90px;
+    bottom: 70px;
 }
 
 /*CSS Principal*/
@@ -809,7 +809,7 @@ section
         color: #FFFFFF;
         width: 590px;
         padding: 60px;
-        height: 5px;
+        height: 28px;
         left: 50px;
         top: 280px;
         background-color: #B2B74A;
